@@ -25,7 +25,8 @@ configure do
 end
 
 # Set up the database and models
-require APP_ROOT.join('config', 'database')
+# require APP_ROOT.join('config', 'database')
+
 
 # Load the routes / actions
 require APP_ROOT.join('app', 'actions')
